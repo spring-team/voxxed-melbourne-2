@@ -56,7 +56,8 @@ class ReservationRestController {
 		}
 
 		@GetMapping("/")
-		void hi() {
+		String hi() {
+				return "hi" ;
 		}
 
 		@GetMapping("/reservations")
